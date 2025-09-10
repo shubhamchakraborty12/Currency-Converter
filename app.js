@@ -6,6 +6,12 @@ const fromCurr = document.querySelector(".from select");
 const toCurr = document.querySelector(".to select");
 const msg = document.querySelector(".msg");
 
+let container = document.querySelector("#ok");
+let btn2 = document.querySelector("#darkm");
+
+let a = "dark";
+btn2.innerHTML = `<i class="fa-solid fa-moon"></i>`;
+
 for (let select of dropdowns) {
     for (currCode in countryList) {
         let newOption = document.createElement("option");
@@ -48,4 +54,19 @@ btn.addEventListener("click", async (evt) => {
     let rate = data[toCurr.value.toLowerCase()];
     let finalAmount = (data[fromCurr.value.toLowerCase()][toCurr.value.toLowerCase()]*parseInt(amount.value)).toFixed(4);
     msg.innerText = `${amtVal} ${fromCurr.value} = ${finalAmount} ${toCurr.value}`;
+});
+
+btn2.addEventListener("click", () => {
+    if(a === "dark") {
+        container.classList.add("dark");
+        btn2.innerHTML = `<i class="fa-regular fa-sun"></i>`;
+        btn2.style.color = "white";
+        a = "white";
+    }
+    else {
+        container.classList.remove("dark");
+        btn2.innerHTML = `<i class="fa-solid fa-moon"></i>`;
+        btn2.style.color = "black";
+        a = "dark";
+    }
 });

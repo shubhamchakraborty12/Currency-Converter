@@ -17,6 +17,8 @@ body {
     border-radius: 10px;
     min-height: 45vh;
     width: 40vh;
+    position: absolute;
+    z-index: -1;
 }
 
 form {
@@ -80,5 +82,20 @@ form button {
     background-color: #af4d98;
     color: #fff;
     font-size: 1.15rem;
+    cursor: pointer;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+#darkm {
+    width: 50px;
+    margin-left: 250px;
+    margin-bottom: 320px;
+    position: relative;
+    background: none;
+    font-size: 20px;
     cursor: pointer;
 }
