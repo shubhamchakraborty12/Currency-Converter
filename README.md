@@ -1,4 +1,5 @@
 Follow these steps to run the project in your device:
+<br>
 **Step 1:** Download the zip file of the repository and extract it or clone the repository using git clone command.
 <br>
 **Step 2:** Make sure you have downloaded Node.js in your PC if not you have to download it!!.
