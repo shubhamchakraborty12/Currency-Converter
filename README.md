@@ -1,4 +1,4 @@
-Follow these steps to run the project in your device:
+<b><h1>Follow these steps to run the project in your device:</h1></b>
 <br>
 **Step 1:** Download the zip file of the repository and extract it or clone the repository using git clone command.
 <br>
@@ -15,4 +15,4 @@ Follow these steps to run the project in your device:
 **Step 7:** Go to your web browser in your PC and type "http://127.0.0.1:3000"
 
 
-<h1><b>Congratulations you have successfully run the project in the server in your PC!!!</b></h1>
+<h1>Congratulations you have successfully run the project in the server in your PC!!!</h1>
