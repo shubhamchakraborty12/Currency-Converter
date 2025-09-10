@@ -14,5 +14,6 @@
 <br>
 **Step 7:** Go to your web browser in your PC and type "http://127.0.0.1:3000"
 
+<h2>To terminate the server use the key combination "ctrl + c" in the terminal</h2>
 
 <h1>Congratulations you have successfully run the project in the server in your PC!!!</h1>
