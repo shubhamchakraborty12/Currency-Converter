@@ -17,8 +17,6 @@ body {
     border-radius: 10px;
     min-height: 45vh;
     width: 40vh;
-    position: absolute;
-    z-index: -1;
 }
 
 form {
@@ -93,8 +91,7 @@ form button {
 #darkm {
     width: 50px;
     margin-left: 250px;
-    margin-bottom: 320px;
-    position: relative;
+    margin-bottom: 0px;
     background: none;
     font-size: 20px;
     cursor: pointer;
